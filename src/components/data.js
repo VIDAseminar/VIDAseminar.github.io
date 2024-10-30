@@ -50,17 +50,16 @@ export const upcomingTalks = [
 ];
 
 export const historyTalksData = [
-  {
-    title: "Talk 1",
-    task: "Discussing AI advancements",
-    location: "Room A",
-    photos: ["path/to/photo1.jpg", "path/to/photo2.jpg", "path/to/photo3.jpg"],
-  },
-  {
-    title: "Talk 2",
-    task: "Exploring Quantum Computing",
-    location: "Room B",
-    photos: ["path/to/photo4.jpg", "path/to/photo5.jpg", "path/to/photo6.jpg"],
-  },
-  // 更多活动...
+  // {
+  //   title: "Talk 1",
+  //   task: "Discussing AI advancements",
+  //   location: "Room A",
+  //   photos: ["path/to/photo1.jpg", "path/to/photo2.jpg", "path/to/photo3.jpg"],
+  // },
+  // {
+  //   title: "Talk 2",
+  //   task: "Exploring Quantum Computing",
+  //   location: "Room B",
+  //   photos: ["path/to/photo4.jpg", "path/to/photo5.jpg", "path/to/photo6.jpg"],
+  // },
 ];
