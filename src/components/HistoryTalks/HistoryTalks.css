@@ -1,0 +1,33 @@
+.history-talks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* 卡片之间的间距 */
+}
+
+.event-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.time, .location {
+    margin: 5px 0;
+}
+
+.photos {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.photo {
+    width: 100px; /* 设置图片宽度 */
+    height: auto; /* 保持比例 */
+    border-radius: 5px; /* 圆角 */
+}
