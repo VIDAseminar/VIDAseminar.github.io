@@ -1,7 +1,7 @@
 // src/data.js
 
 export const nextTalk = {
-  date: "Nov 6, 2024",
+  date: "Wed, Nov 6, 2024",
   time: "11:00 - 12:00",
   location: "Room 1114, 370 Jay St",
   speaker1: "Teal Witter",
