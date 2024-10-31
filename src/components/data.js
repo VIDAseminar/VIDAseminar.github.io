@@ -37,7 +37,7 @@ export const upcomingTalks = [
     time: "11:30 - 12:00",
     location: "Room 1178, 370 Jay St",
     speaker: "Guande Wu",
-    topic: "Data Science in Epidemiology",
+    topic: "",
   }
 ];
 
