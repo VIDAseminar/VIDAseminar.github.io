@@ -2,50 +2,42 @@
 
 export const nextTalk = {
   date: "Nov 6, 2024",
-  time: "12:00 - 13:00",
+  time: "11:00 - 12:00",
   location: "Room 1114, 370 Jay St",
   speaker1: "Teal Witter",
-  topic1: "",
+  topic1: "Provably Accurate Estimators for Shapley Values",
   speaker2: "Niv Cohen",
-  topic2: "",
+  topic2: "Discovering and Erasing Undesired Concepts",
 };
 
 export const talkDetails = {
-  title1: "Topic1: Integrating Visual Analytics into High-Throughput Bioinformatics",
-  researcher1: "Jane Doe, Ph.D. Student, Bioinformatics Lab",
-  image1: "./images/logo192.png",
+  title1: "Topic1: Provably Accurate Estimators for Shapley Values",
+  researcher1: "Teal Witter, Fifth year PhD candidate, Advised by Chris Musco and Lisa Hellerstein",
+  image1: "./images/Teal.JPG",
   abstract1:
-    "This talk will delve into the latest methods of integrating visual analytics to improve understanding in high-throughput bioinformatics, including applications in cell and tissue analysis. Key topics will include real-time data visualization and challenges in high-dimensional data interpretation.This talk will delve into the latest methods of integrating visual analytics to improve understanding in high-throughput bioinformatics, including applications in cell and tissue analysis. Key topics will include real-time data visualization and challenges in high-dimensional data interpretation.This talk will delve into the latest methods of integrating visual analytics to improve understanding in high-throughput bioinformatics, including applications in cell and tissue analysis. Key topics will include real-time data visualization and challenges in high-dimensional data interpretation.This talk will delve into the latest methods of integrating visual analytics to improve understanding in high-throughput bioinformatics, including applications in cell and tissue analysis. Key topics will include real-time data visualization and challenges in high-dimensional data interpretation.This talk will delve into the latest methods of integrating visual analytics to improve understanding in high-throughput bioinformatics, including applications in cell and tissue analysis. Key topics will include real-time data visualization and challenges in high-dimensional data interpretation.This talk will delve into the latest methods of integrating visual analytics to improve understanding in high-throughput bioinformatics, including applications in cell and tissue analysis.",
+    "Originally developed in game theory, Shapley values are now widely used in explainable machine learning to attribute model predictions to individual input features. However, calculating Shapley values exactly can be computationally demanding, requiring an exponential number of model evaluations in the number of features. To make this process more efficient, approximation algorithms are commonly used. One of the most popular is the Kernel SHAP algorithm, known for being model-agnostic and highly effective in practice. However, Kernel SHAP lacks strong, non-asymptotic guarantees on computational complexity. To address this, we introduce Leverage SHAP, a streamlined version of Kernel SHAP that provides provably accurate Shapley value estimates with nearly linear model evaluations. Our method leverages a connection between Shapley value estimation and agnostic active learning, utilizing leverage score sampling—a powerful technique in regression. Alongside its theoretical guarantees, Leverage SHAP consistently surpasses the performance of even the optimized Kernel SHAP implementation in the widely-used SHAP library [Lundberg & Lee, 2017].",
   
-  title2: "Topic2: Integrating Visual Analytics into High-Throughput Bioinformatics",
-  researcher2: "Jane Doe, Ph.D. Student, Bioinformatics Lab",
-  image2: "./images/logo192.png",
+  title2: "Topic2: Discovering and Erasing Undesired Concepts",
+  researcher2: "Jane Doe, Postdoc, Advised by Chinmay Hegde",
+  image2: "./images/Niv.png",
   abstract2:
-    "This talk will delve into the latest methods of integrating visual analytics to improve understanding in high-throughput bioinformatics, including applications in cell and tissue analysis. Key topics will include real-time data visualization and challenges in high-dimensional data interpretation.This talk will delve into the latest methods of integrating visual analytics to improve understanding in high-throughput bioinformatics, including applications in cell and tissue analysis. Key topics will include real-time data visualization and challenges in high-dimensional data interpretation.This talk will delve into the latest methods of integrating visual analytics to improve understanding in high-throughput bioinformatics, including applications in cell and tissue analysis. Key topics will include real-time data visualization and challenges in high-dimensional data interpretation.This talk will delve into the latest methods of integrating visual analytics to improve understanding in high-throughput bioinformatics, including applications in cell and tissue analysis. Key topics will include real-time data visualization and challenges in high-dimensional data interpretation.This talk will delve into the latest methods of integrating visual analytics to improve understanding in high-throughput bioinformatics, including applications in cell and tissue analysis. Key topics will include real-time data visualization and challenges in high-dimensional data interpretation.This talk will delve into the latest methods of integrating visual analytics to improve understanding in high-throughput bioinformatics, including applications in cell and tissue analysis.",
+    "The rapid growth of generative models allows an ever-increasing variety of capabilities. Yet, these models may also produce undesired content such as unsafe images, private information, or copyrighted material. In this talk, I will discuss practical methods to prevent undesired generations. First, I will show how the challenge of avoiding undesired generations manifested itself in a simple Capture-the-Flag LLM setting, where even our top defense strategy was breached. Next, I will demonstrate a similar vulnerability in state-of-the-art concept erasure methods for Text-to-Image models. Finally, I will demonstrate how Task Vectors can help mitigate these vulnerabilities.",
 };
 
 export const upcomingTalks = [
   {
     date: "Nov 20, 2024",
-    time: "12:00 - 12:30",
+    time: "11:00 - 11:30",
     location: "Room 1178, 370 Jay St",
-    speaker: "Dr. Alex Brown",
-    topic: "AI in Molecular Biology",
-    title: "Leveraging AI for Predicting Protein Structures",
-    researcher: "Dr. Alex Brown, AI and Molecular Biology Lab",
-    abstract:
-      "An exploration of AI applications in molecular biology, with a focus on predicting protein structures and drug discovery using deep learning techniques.",
+    speaker: "Alexandeer Ratzan",
+    topic: ""
   },
   {
     date: "Nov 20, 2024",
-    time: "12:30 - 13:00",
+    time: "11:30 - 12:00",
     location: "Room 1178, 370 Jay St",
-    speaker: "Dr. Sarah Williams",
+    speaker: "",
     topic: "Data Science in Epidemiology",
-    title: "Modeling Disease Spread with Data Analytics",
-    researcher: "Dr. Sarah Williams, Epidemiology and Data Science Lab",
-    abstract:
-      "This talk addresses data analytics in epidemiology, covering modeling techniques for understanding and predicting disease spread, especially in urban settings.",
   }
 ];
 

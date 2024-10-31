@@ -15,11 +15,11 @@ function TalkDetails({ details }) {
                 </div>
             </div>
             <div className="poster">
-                <img src={details.image1} alt={`${details.researcher1}'s portrait`} className="speaker-photo" />
+                <img src={details.image2} alt={`${details.researcher2}'s portrait`} className="speaker-photo" />
                 <div className="details">
-                    <h3>{details.title1}</h3>
-                    <p className="researcher">{details.researcher1}</p>
-                    <p className="abstract">{details.abstract1}</p>
+                    <h3>{details.title2}</h3>
+                    <p className="researcher">{details.researcher2}</p>
+                    <p className="abstract">{details.abstract2}</p>
                 </div>
             </div>
             
