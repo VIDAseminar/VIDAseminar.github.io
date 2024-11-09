@@ -42,16 +42,22 @@ export const upcomingTalks = [
 ];
 
 export const historyTalksData = [
-  // {
-  //   title: "Talk 1",
-  //   task: "Discussing AI advancements",
-  //   location: "Room A",
-  //   photos: ["path/to/photo1.jpg", "path/to/photo2.jpg", "path/to/photo3.jpg"],
-  // },
-  // {
-  //   title: "Talk 2",
-  //   task: "Exploring Quantum Computing",
-  //   location: "Room B",
-  //   photos: ["path/to/photo4.jpg", "path/to/photo5.jpg", "path/to/photo6.jpg"],
-  // },
+  {
+      date: "Nov 6, 2024",
+      speakers: [
+          {
+              name: "Teal Witter",
+              title: "Provably Accurate Estimators for Shapley Values",
+              zoomLink: "https://drive.google.com/file/d/1sbsi3bMhd1Vteu_aHCDVr6Zo6lfH1SXI/view?usp=drive_link",
+              slidesLink: "https://drive.google.com/file/d/1Lcknq7lghj9I56zokmK0zKex-U94PGyn/view?usp=drive_link"
+          },
+          {
+              name: "Niv Cohen",
+              title: "Discovering and Erasing Undesired Concepts",
+              zoomLink: "https://drive.google.com/file/d/1nxXmg-v2bGM6E0En8teoDG5vjaCOWvO9/view?usp=drive_link",
+              slidesLink: "https://drive.google.com/file/d/1meFaiUg22yKswZtZ6eYWojTUoWGyCefT/view?usp=drive_link"
+          }
+      ]
+  },
+  // Additional events...
 ];
