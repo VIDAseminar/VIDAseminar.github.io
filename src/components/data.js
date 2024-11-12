@@ -54,7 +54,7 @@ export const historyTalksData = [
           {
               name: "Niv Cohen",
               title: "Discovering and Erasing Undesired Concepts",
-              zoomLink: "https://drive.google.com/file/d/1nxXmg-v2bGM6E0En8teoDG5vjaCOWvO9/view?usp=drive_link",
+              zoomLink: "https://drive.google.com/file/d/1obz3bRHseG45eXnTXLqfZEwJv0oXNz1j/view?usp=drive_link",
               slidesLink: "https://drive.google.com/file/d/1meFaiUg22yKswZtZ6eYWojTUoWGyCefT/view?usp=drive_link"
           }
       ]
