@@ -29,7 +29,7 @@ export const upcomingTalks = [
     date: "Nov 20, 2024",
     time: "11:00 - 11:30",
     location: "Room 1178, 370 Jay St",
-    speaker: "Alexandeer Ratzan",
+    speaker: "Alexander Ratzan",
     topic: ""
   },
   {
