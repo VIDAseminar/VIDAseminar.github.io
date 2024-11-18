@@ -3,11 +3,11 @@
 export const nextTalk = {
   date: "Wed, Nov 20, 2024",
   time: "11:00 - 12:00",
-  location: "Room 1178, 370 Jay St",
+  location: "Room 1114, 370 Jay St",
   speaker1: "Alexander Ratzan",
   topic1: "Molecular Connectomics from Small to Large Brains",
   speaker2: "Felipe Inagaki de Oliveira",
-  topic2: "",
+  topic2: "TopoMap++: A faster and more space efficient technique to compute projections with topological guarantees",
 };
 
 export const talkDetails = {
@@ -17,11 +17,11 @@ export const talkDetails = {
   abstract1:
     "Biological neural networks, or 'connectomes', evolved under stringent evolutionary constraints to enable brains of all scales to perform complex behaviors. A longstanding goal of systems neuroscience is to uncover the genetic and molecular factors that contribute to the precise wiring of these networks. In this talk, I will present modeling approaches aimed at integrating genomics and neuroimaging to provide insight into the multimodal factors that shape the connectome across species. I will further introduce key challenges of addressing this research question, as well as avenues for maximizing impact across diverse fields from precision medicine to neuromorphic computing.",
   
-  title2: "Topic2: ",
+  title2: "Topic2: TopoMap++: A faster and more space efficient technique to compute projections with topological guarantees",
   researcher2: "Felipe Inagaki de Oliveira, Second year PhD student, Advised by Claudio Silva",
-  image2: "",
+  image2: "./images/Felipe.jpeg",
   abstract2:
-    "",
+    "High-dimensional data, characterized by many features, can be difficult to visualize effectively. Dimensionality reduction techniques, such as PCA, UMAP, and t-SNE, address this challenge by projecting the data into a lower-dimensional space while preserving important relationships. TopoMap is another technique that excels at preserving the underlying structure of the data, leading to interpretable visualizations. In particular, TopoMap maps the high-dimensional data into a visual space, guaranteeing that the 0-dimensional persistence diagram of the Rips filtration of the visual space matches the one from the high-dimensional data. However, the original TopoMap algorithm can be slow and its layout can be too sparse for large and complex datasets. Our work propose three improvements to TopoMap: 1) a more space-efficient layout, 2) a significantly faster implementation, and 3) a novel TreeMap-based representation that makes use of the topological hierarchy to aid the exploration of the projections.These advancements make TopoMap, now referred to as TopoMap++, a more powerful tool for visualizing high-dimensional data which we demonstrate through different use case scenarios.",
 };
 
 export const upcomingTalks = [
