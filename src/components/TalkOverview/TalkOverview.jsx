@@ -18,7 +18,7 @@ function TalkOverview({ talk }) {
                     </tr>
                     <tr>
                         <th>Location</th>
-                        <td>{talk.location}</td>
+                        <td>{talk.location} OR <a href={talk.zoomLink} target="_blank">Join Zoom Meeting</a></td>
                     </tr>
                     <tr>
                         <th>Speaker1</th>
