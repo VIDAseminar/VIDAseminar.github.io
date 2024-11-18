@@ -16,7 +16,7 @@ export const talkDetails = {
   researcher1: `${nextTalk.speaker1}, Second year PhD student, Advised by Erdem Varol`,
   image1: "./images/Alex.jpg",
   abstract1:
-    "Biological neural networks, or 'connectomes', evolved under stringent evolutionary constraints to enable brains of all scales to perform complex behaviors. A longstanding goal of systems neuroscience is to uncover the genetic and molecular factors that contribute to the precise wiring of these networks. In this talk, I will present modeling approaches aimed at integrating genomics and neuroimaging to provide insight into the multimodal factors that shape the connectome across species. I will further introduce key challenges of addressing this research question, as well as avenues for maximizing impact across diverse fields from precision medicine to neuromorphic computing.",
+    "Biological neural networks, or ’connectomes’, evolved under stringent evolutionary constraints to enable brains of all scales to perform complex behaviors. A longstanding goal of systems neuroscience is to uncover the genetic and molecular factors that contribute to the precise wiring of these networks. In this talk, I will present modeling approaches aimed at integrating genomics and neuroimaging to provide insight into the multimodal factors that shape the connectome across species. I will further address key challenges and considerations, such as data harmonization and model interpretability, which are critical to downstream applications in precision medicine and neuromorphic computing.",
   
   title2: "Topic2: " + nextTalk.topic2,
   researcher2: `${nextTalk.speaker2}, Second year PhD student, Advised by Claudio Silva`,
