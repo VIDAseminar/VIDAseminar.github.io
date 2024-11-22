@@ -60,5 +60,22 @@ export const historyTalksData = [
           }
       ]
   },
+  {
+    date: "Nov 20, 2024",
+    speakers: [
+        {
+            name: "Alexander Ratzan",
+            title: "Molecular Connectomics from Small to Large Brains",
+            zoomLink: "https://drive.google.com/file/d/1jXq5pxLoFCmy9oHRHctXykwANUnnMNiA/view?usp=drive_link",
+            slidesLink: "https://drive.google.com/file/d/11iOsm16DZ9iTEq_bMp0nlXBnrz7wb4pW/view?usp=drive_link"
+        },
+        {
+            name: "Felipe Inagaki de Oliveira",
+            title: "TopoMap++: A faster and more space efficient technique to compute projections with topological guarantees",
+            zoomLink: "https://drive.google.com/file/d/1jXq5pxLoFCmy9oHRHctXykwANUnnMNiA/view?usp=drive_link",
+            slidesLink: "https://drive.google.com/file/d/1SzKt8_z_7cxJCMTt62jN5sYKiNmP0RU8/view?usp=drive_link"
+        }
+    ]
+},
   // Additional events...
 ];
