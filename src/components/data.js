@@ -1,42 +1,42 @@
 // src/data.js
 
 export const nextTalk = {
-  date: "Wed, Nov 20, 2024",
+  date: "Wed, Dec 4, 2024",
   time: "11:00 - 12:00",
   location: "Room 1114, 370 Jay St",
   zoomLink: "https://nyu.zoom.us/j/95901395759",
-  speaker1: "Alexander Ratzan",
-  topic1: "Molecular Connectomics from Small to Large Brains",
-  speaker2: "Felipe Inagaki de Oliveira",
-  topic2: "TopoMap++: A faster and more space efficient technique to compute projections with topological guarantees",
+  speaker1: "Guande Wu",
+  topic1: "Evaluating Collaborative Capabilities of Language Models",
+  speaker2: "Aécio Santos",
+  topic2: "Sampling-Based Sketching Methods for Correlated Data Discovery",
 };
 
 export const talkDetails = {
   title1: "Topic1: " + nextTalk.topic1,
-  researcher1: `${nextTalk.speaker1}, Second year PhD student, Advised by Erdem Varol`,
-  image1: "./images/Alex.jpg",
+  researcher1: `${nextTalk.speaker1}, 4th year PhD student, Advised by Claudio Silva`,
+  image1: "./images/guande.png",
   abstract1:
-    "Biological neural networks, or ’connectomes’, evolved under stringent evolutionary constraints to enable brains of all scales to perform complex behaviors. A longstanding goal of systems neuroscience is to uncover the genetic and molecular factors that contribute to the precise wiring of these networks. In this talk, I will present modeling approaches aimed at integrating genomics and neuroimaging to provide insight into the multimodal factors that shape the connectome across species. I will further address key challenges and considerations, such as data harmonization and model interpretability, which are critical to downstream applications in precision medicine and neuromorphic computing.",
+    "Language agents that interact with the world on their own have great potential for automating digital tasks. While large language model (LLM) agents have made progress in understanding and executing tasks such as textual games and webpage control, many real-world tasks also require collaboration with humans or other LLMs in equal roles, which involves intent understanding, task coordination, and communication. To test LLM's ability to collaborate, we design a blocks-world environment, where two agents, each having unique goals and skills, build a target structure together. To complete the goals, they can act in the world and communicate in natural language. Under this environment, we design increasingly challenging settings to evaluate different collaboration perspectives, from independent to more complex, dependent tasks. We further adopt chain-of-thought prompts that include intermediate reasoning steps to model the partner's state and identify and correct execution errors. Both human-machine and machine-machine experiments show that LLM agents have strong grounding capacities, and our approach significantly improves the evaluation metric.",
   
   title2: "Topic2: " + nextTalk.topic2,
-  researcher2: `${nextTalk.speaker2}, Second year PhD student, Advised by Claudio Silva`,
-  image2: "./images/Felipe.jpeg",
+  researcher2: `${nextTalk.speaker2}, Research Engineer, Advised by Juliana Freire`,
+  image2: "./images/Aecio.jpeg",
   abstract2:
-    "High-dimensional data, characterized by many features, can be difficult to visualize effectively. Dimensionality reduction techniques, such as PCA, UMAP, and t-SNE, address this challenge by projecting the data into a lower-dimensional space while preserving important relationships. TopoMap is another technique that excels at preserving the underlying structure of the data, leading to interpretable visualizations. In particular, TopoMap maps the high-dimensional data into a visual space, guaranteeing that the 0-dimensional persistence diagram of the Rips filtration of the visual space matches the one from the high-dimensional data. However, the original TopoMap algorithm can be slow and its layout can be too sparse for large and complex datasets. Our work propose three improvements to TopoMap: 1) a more space-efficient layout, 2) a significantly faster implementation, and 3) a novel TreeMap-based representation that makes use of the topological hierarchy to aid the exploration of the projections.These advancements make TopoMap, now referred to as TopoMap++, a more powerful tool for visualizing high-dimensional data which we demonstrate through different use case scenarios.",
+    "Dataset search is emerging as a critical capability in both research and industry: it has spurred many novel applications such as data augmentation for enriching data analyses and improving machine learning models. This talk presents an overview of our work that explores new sampling-based sketching algorithms to solve dataset search and discovery problems. We will present new methods for efficiently answering queries that uncover data relationships in large table collections, focusing on join-correlation queries: given an input query table, find the top-k tables that are both joinable with it and contain columns strongly correlated with a column in the query table. We will also present extensions for estimating correlations over tables containing join keys with repeated values, and more general dependence measures such as mutual information. Finally, we demonstrate practical applications of our methods using two use cases: feature discovery over data lakes to improve machine learning models and gene mutation prediction from proteomics data.",
 };
 
 export const upcomingTalks = [
   {
-    date: "Dec 4, 2024",
+    date: "Dec 18, 2024",
     time: "11:00 - 11:30",
-    location: "Room TBD, 370 Jay St",
-    speaker: "Guande Wu",
+    location: "Room 1114, 370 Jay St",
+    speaker: "TBD",
     topic: ""
   },
   {
-    date: "Dec 4, 2024",
+    date: "Dec 18, 2024",
     time: "11:30 - 12:00",
-    location: "Room TBD, 370 Jay St",
+    location: "Room 1114, 370 Jay St",
     speaker: "TBD",
     topic: "",
   }
