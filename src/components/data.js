@@ -77,5 +77,22 @@ export const historyTalksData = [
         }
     ]
 },
+{
+  date: "Dec 4, 2024",
+  speakers: [
+      {
+          name: "Guande Wu",
+          title: "Evaluating Collaborative Capabilities of Language Models",
+          zoomLink: "https://nyu.zoom.us/rec/share/G8M2TYy8n2iG9Qz64Ui6UfHVDspU8NXt4mD2PVf_dioLm0zrp40WFjM2vDn4wws.m-RU7ItKEoF6_P_k",
+          slidesLink: "https://drive.google.com/file/d/1MaszoGCBtldtvtHKSde9U8fVBTXbmeXH/view?usp=drive_link"
+      },
+      {
+          name: "Aécio Santos",
+          title: "Sampling-Based Sketching Methods for Correlated Data Discovery",
+          zoomLink: "https://nyu.zoom.us/rec/share/G8M2TYy8n2iG9Qz64Ui6UfHVDspU8NXt4mD2PVf_dioLm0zrp40WFjM2vDn4wws.m-RU7ItKEoF6_P_k",
+          slidesLink: ""
+      }
+  ]
+},
   // Additional events...
 ];
