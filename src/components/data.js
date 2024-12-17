@@ -8,7 +8,7 @@ export const nextTalk = {
   speaker1: "Christos Koutras",
   topic1: "Tabular Schema Matching for Modern Settings",
   speaker2: "Stella Holbrook",
-  topic2: "",
+  topic2: "Spatial Indexes in Correlated Data Discovery",
 };
 
 export const talkDetails = {
@@ -16,13 +16,13 @@ export const talkDetails = {
   researcher1: `${nextTalk.speaker1}, Postdoc, Advised by Juliana Freire`,
   image1: "./images/christos.jpg",
   abstract1:
-    "Schema matching is a critical data integration process, which aims at capturing relevance between elements of different        datasets; when datasets are tabular, it translates to the process of discovering related columns among them. Accurately discovering column matches is integral for several applications, such as entity resolution, data cleaning and data augmentation. While there exists a multitude of schema matching methods in the literature, we identify three major issues: i) there is no comprehensive study of comparing them in terms of effectiveness and efficiency, due to not available implementations and lack of evaluation datasets, ii) existing methods might be impractical and even inapplicable in certain modern settings, and iii) the heterogeneity and complexity of data can impede capturing relevance among columns for existing methods, as certain assumptions might not be holding for the entirety of underlying datasets. In this talk, I will briefly discuss how we tackled these issues in my doctoral thesis, by reviewing existing schema matching techniques and proposing novel methods capable of addressing challenges imposed by modern settings. I will conclude the talk by discussing future directions for the field.",
+    "Schema matching is a critical data integration process, which aims at capturing relevance between elements of different datasets; when datasets are tabular, it translates to the process of discovering related columns among them. Accurately discovering column matches is integral for several applications, such as entity resolution, data cleaning and data augmentation. While there exists a multitude of schema matching methods in the literature, we identify three major issues: i) there is no comprehensive study of comparing them in terms of effectiveness and efficiency, due to not available implementations and lack of evaluation datasets, ii) existing methods might be impractical and even inapplicable in certain modern settings, and iii) the heterogeneity and complexity of data can impede capturing relevance among columns for existing methods, as certain assumptions might not be holding for the entirety of underlying datasets. In this talk, I will briefly discuss how we tackled these issues in my doctoral thesis, by reviewing existing schema matching techniques and proposing novel methods capable of addressing challenges imposed by modern settings. I will conclude the talk by discussing future directions for the field.",
   
   title2: "Topic2: " + nextTalk.topic2,
-  researcher2: `${nextTalk.speaker2}, Research Engineer, Advised by Juliana Freire`,
-  image2: "./images/",
+  researcher2: `${nextTalk.speaker2}, PhD Student, Advised by Juliana Freire`,
+  image2: "./images/stella.png",
   abstract2:
-    "",
+    "Correlated data discovery is a set of methods in data augmentation which compute a correlation statistic between attributes of disparate datasets along a join key. The value of this statistic determines whether the user seeking data should be brought those data which have had their correlations between attributes calculated. Previous work on this kind of data discovery (Santos 21), (Santos 24) has been limited to tabular data. While tabular data can use spatial, temporal or both attributes as a key to calculate correlations from, it is not capable of harmonizing disparate spatial and temporal data types such as coordinates and regions and their associated timestamps. Space filling curves laid over the earth are a solution to make different spatial data join-able with one another. I will begin my presentation by showcasing the methodology behind join-correlation queries used in correlated data discovery and then go on to highlight a popular spatial index known as a geohash which is organized as a space filling curve. The geohash is a spatial index which can enable correlated data discovery over Geo-spatial domains.",
 };
 
 export const upcomingTalks = [
