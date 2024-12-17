@@ -72,7 +72,7 @@ export const historyTalksData = [
         {
             name: "Felipe Inagaki de Oliveira",
             title: "TopoMap++: A faster and more space efficient technique to compute projections with topological guarantees",
-            zoomLink: "https://drive.google.com/file/d/1jXq5pxLoFCmy9oHRHctXykwANUnnMNiA/view?usp=drive_link",
+            zoomLink: "https://drive.google.com/file/d/11ZTC-uEBshdkXlmRJOw1onHBdPv75ppC/view?usp=drive_link",
             slidesLink: "https://drive.google.com/file/d/1SzKt8_z_7cxJCMTt62jN5sYKiNmP0RU8/view?usp=drive_link"
         }
     ]
