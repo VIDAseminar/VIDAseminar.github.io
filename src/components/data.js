@@ -1,7 +1,7 @@
 // src/data.js
 
 export const nextTalk = {
-  date: "Wed, Dec 4, 2024",
+  date: "Wed, Dec 18, 2024",
   time: "11:00 - 12:00",
   location: "Room 1114, 370 Jay St",
   zoomLink: "https://nyu.zoom.us/j/95901395759",
@@ -91,6 +91,23 @@ export const historyTalksData = [
           title: "Sampling-Based Sketching Methods for Correlated Data Discovery",
           zoomLink: "https://drive.google.com/file/d/1iNOJLoltkFRHgMf3QNYkiM_tLLVt8aDB/view?usp=drive_link",
           slidesLink: ""
+      }
+  ]
+},
+{
+  date: "Dec 18, 2024",
+  speakers: [
+      {
+          name: "Christos Koutras",
+          title: "Tabular Schema Matching for Modern Settings",
+          zoomLink: "https://nyu.zoom.us/rec/play/EQwbk8CxHqpsYS4JFnYNnN1BoW7kpTYANlOP5mkXuiYmb101t8-L0XzxlsfPV10zU0P574XZcL73BaGe.QcscdOqK_rAn8qvu?canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fnyu.zoom.us%2Frec%2Fshare%2F4KaqcZmABP7coExGHgzbmc77IARYsZzMvLdWC__VJYo_bCVSgJhGcjnfYM-9DUs2.g2ZDjy73Mjuqjmqt",
+          slidesLink: "https://drive.google.com/file/d/1OnrjEMEsZ6PY4KPvgYrG0XTZmblpZGPC/view?usp=drive_link"
+      },
+      {
+          name: "Stella Holbrook",
+          title: "Spatial Indexes in Correlated Data Discovery",
+          zoomLink: "https://nyu.zoom.us/rec/play/EQwbk8CxHqpsYS4JFnYNnN1BoW7kpTYANlOP5mkXuiYmb101t8-L0XzxlsfPV10zU0P574XZcL73BaGe.QcscdOqK_rAn8qvu?canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fnyu.zoom.us%2Frec%2Fshare%2F4KaqcZmABP7coExGHgzbmc77IARYsZzMvLdWC__VJYo_bCVSgJhGcjnfYM-9DUs2.g2ZDjy73Mjuqjmqt",
+          slidesLink: "https://drive.google.com/file/d/1LEpnyf0GA-zaiTanBdu2q7SggLt2hG7N/view?usp=drive_link"
       }
   ]
 },
