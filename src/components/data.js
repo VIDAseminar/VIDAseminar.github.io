@@ -14,13 +14,13 @@ export const nextTalk = {
 export const talkDetails = {
   title1: "Topic1: " + nextTalk.topic1,
   researcher1: `${nextTalk.speaker1}, Ph.D. Candidate, Advised by Julia Stoyanovich`,
-  image1: "./images/andrew.jpg",
+  image1: "./images/Andrew.JPG",
   abstract1:
     "Large Language Models (LLMs) have been shown to be susceptible to jailbreak attacks, or adversarial attacks used to illicit high risk behavior from a model. Jailbreaks have been exploited by cybercriminals and blackhat actors to cause significant harm, highlighting the critical need to safeguard widely-deployed models. Safeguarding approaches, which include fine-tuning models or having LLMs \"self-reflect\", may lengthen the inference time of a model, incur a computational penalty, reduce the semantic fluency of an output, and restrict 'normal' model behavior. Importantly, these Safety-Performance Trade-offs (SPTs) remain an understudied area. In this work, we introduce a novel safeguard, called SafeNudge, that combines Controlled Text Generation with \"nudging,\" or using text interventions to change the behavior of a model. SafeNudge triggers during text-generation while a jailbreak attack is being executed, and can reduce successful jailbreak attempts by 30% by guiding the LLM towards a safe responses. It adds minimal latency to inference and has a negligible impact on the semantic fluency of outputs. Further, we allow for tunable SPTs. SafeNudge is open-source and available through https://pypi.org/, and is compatible with models loaded with the Hugging Face transformers library.",
 
   title2: "Topic2: " + nextTalk.topic2,
   researcher2: `${nextTalk.speaker2}, M.S. Student, Advised by Claudio Silva`,
-  image2: "./images/jewelina.jpg",
+  image2: "./images/jewelina.JPG",
   abstract2:
     "By leveraging computational methods, physiological sensing, and AI-driven adaptation, I develop intelligent interfaces that dynamically respond to users' cognitive and behavioral states, optimizing experience and performance in real time. My work spans aviation, driving assistance, healthcare, and gaming, demonstrating the impact of adaptive systems across diverse domains.",
 };
