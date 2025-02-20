@@ -1,7 +1,7 @@
 // src/data.js
 
 export const nextTalk = {
-  date: "Wed, Feb 26, 2025",
+  date: "Wed, Dec 4, 2024",
   time: "11:00 - 12:00",
   location: "Room 1114, 370 Jay St",
   zoomLink: "https://nyu.zoom.us/j/95901395759",
@@ -99,32 +99,12 @@ export const historyTalksData = [
           "https://drive.google.com/file/d/1MaszoGCBtldtvtHKSde9U8fVBTXbmeXH/view?usp=drive_link",
       },
       {
-        name: "Aécio Santos",
-        title: "Sampling-Based Sketching Methods for Correlated Data Discovery",
-        zoomLink:
-          "https://drive.google.com/file/d/1iNOJLoltkFRHgMf3QNYkiM_tLLVt8aDB/view?usp=drive_link",
-        slidesLink: "",
-      },
-    ],
-  },
-  {
-    date: "Dec 18, 2024",
-    speakers: [
-      {
-        name: "Christos Koutras",
-        title: "Tabular Schema Matching for Modern Settings",
-        zoomLink: "",
-        slidesLink:
-          "",
-      },
-      {
-        name: "Stella Holbrook",
-        title: "	Spatial Indexes in Correlated Data Discovery",
-        zoomLink:
-          "",
-        slidesLink: "",
-      },
-    ],
-  },
+          name: "Aécio Santos",
+          title: "Sampling-Based Sketching Methods for Correlated Data Discovery",
+          zoomLink: "https://drive.google.com/file/d/1iNOJLoltkFRHgMf3QNYkiM_tLLVt8aDB/view?usp=drive_link",
+          slidesLink: ""
+      }
+  ]
+},
   // Additional events...
 ];
