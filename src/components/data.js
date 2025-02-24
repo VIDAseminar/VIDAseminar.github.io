@@ -2,7 +2,7 @@
 
 export const nextTalk = {
   date: "Wed, Dec 4, 2024",
-  time: "11:00 - 12:00",
+  time: "12:10 - 13:10",
   location: "Room 1114, 370 Jay St",
   zoomLink: "https://nyu.zoom.us/j/95901395759",
   speaker1: "Andrew Bell",
