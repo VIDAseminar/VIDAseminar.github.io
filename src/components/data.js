@@ -107,4 +107,23 @@ export const historyTalksData = [
   ]
 },
   // Additional events...
+  {
+    date: "Feb 26, 2025",
+    speakers: [
+      {
+        name: "Andrew Bell",
+        title: "Safeguarding Large Language Models in Real-time with Tunable Safety-Performance Trade-offs",
+        zoomLink:
+          "https://drive.google.com/file/d/1sj2UKfmXvQJAJvR7_uTzw1T7FUsvt4hm/view?usp=sharing",
+        slidesLink:
+          "",
+      },
+      {
+          name: "Jewelina Wen",
+          title: "Understanding, Enhancing, and Augmenting Human Interaction through Adaptive Systems",
+          zoomLink: "https://drive.google.com/file/d/1sj2UKfmXvQJAJvR7_uTzw1T7FUsvt4hm/view?usp=sharing",
+          slidesLink: "https://docs.google.com/presentation/d/1JO3gsuysW5UAIDfT-2Ryde6GyALQ5lyt/edit?usp=sharing&ouid=103225470520735592499&rtpof=true&sd=true"
+      }
+  ]
+},
 ];
