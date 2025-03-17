@@ -130,5 +130,18 @@ export const historyTalksData = [
       },
     ],
   },
+  {
+    date: "Mar 12, 2025",
+    speakers: [
+      {
+        name: "Apoorv Vikram Singh",
+        title:
+          "Differentially Private Synthetic Data Generation using Moment Matching",
+        zoomLink:
+          "https://drive.google.com/file/d/1Enca1ZOS4xnX9_tlDWFTKOg1JuRpg62O/view?usp=drive_link",
+        slidesLink: "",
+      },
+    ],
+  },
   // Additional events...
 ];
