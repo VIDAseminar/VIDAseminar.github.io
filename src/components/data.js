@@ -1,41 +1,40 @@
 // src/data.js
 
 export const nextTalk = {
-  date: "Wed, Mar 12, 2025",
-  time: "12:00 - 12:30",
+  date: "Wed, Apr 2, 2025",
+  time: "12:00 - 13:00",
   location: "Room 1114, 370 Jay St",
   zoomLink: "https://nyu.zoom.us/j/95901395759",
-  speaker1: "Apoorv Vikram Singh",
-  topic1:
-    "Differentially Private Synthetic Data Generation using Moment Matching",
-  // speaker2: "",
-  // topic2: "",
+  speaker1: "Miao Zhang",
+  topic1: "Common Sense Bias Modeling for Classification Tasks",
+  speaker2: "Kelly Marshall",
+  topic2: "Language Representations For 3D Machine Learning",
 };
 
 export const talkDetails = {
   title1: "Topic1: " + nextTalk.topic1,
-  researcher1: `${nextTalk.speaker1}, Ph.D. Student, Advised by Chris Musco`,
-  image1: "./images/apoorv.jpeg",
+  researcher1: `${nextTalk.speaker1}, Ph.D. Student, Advised by Rumi Chunara`,
+  image1: "./images/miao.JPG",
   abstract1:
-    'One of the most fundamental problems in statistics is the method of moments: given the moments of a probability distribution, the goal is to estimate the distribution (or a function of it). I will show how to do this efficiently using Chebyshev polynomials, leading to an optimal and practical algorithm. Next, I will introduce differential privacy and demonstrate how to generate differentially private synthetic data using the same approach. If time permits, I will also sketch the proof. No background in distribution learning or differential privacy is assumed. This talk is based on joint work with Cameron Musco, Christopher Musco, and Lucas Rosenblatt.',
+    "Machine learning model bias can arise from dataset composition: correlated sensitive features can distort the downstream classification model's decision boundary and lead to performance differences along these features. To this end, we propose a novel framework to extract comprehensive biases in image datasets based on textual descriptions, a common sense-rich modality. Specifically, features are constructed by clustering noun phrase embeddings with similar semantics. The presence of each feature across the dataset is inferred, and their co-occurrence statistics are measured, with spurious correlations optionally examined by a human-in-the-loop module. Our method uncovers novel model biases in multiple image benchmark datasets. Furthermore, the discovered bias can be mitigated by simple data re-weighting to de-correlate the features, achieving state-of-the-art performance.",
 
-  // title2: "Topic2: " + nextTalk.topic2,
-  // researcher2: `${nextTalk.speaker2}, M.S. Student, Advised by Claudio Silva`,
-  // image2: "./images/jewelina.JPG",
-  // abstract2:
-  //   "By leveraging computational methods, physiological sensing, and AI-driven adaptation, I develop intelligent interfaces that dynamically respond to users' cognitive and behavioral states, optimizing experience and performance in real time. My work spans aviation, driving assistance, healthcare, and gaming, demonstrating the impact of adaptive systems across diverse domains.",
+  title2: "Topic2: " + nextTalk.topic2,
+  researcher2: `${nextTalk.speaker2}, Ph.D Student, Advised by Chinmay Hegde`,
+  image2: "./images/kelly.jpg",
+  abstract2:
+    "Over the past decade, the generative capabilities of machine learning systems has undergone transformational development, enabling high-quality data synthesis at previously unthinkable levels. Until now, these advances have been largely confined to the image and language modalities, where usable data is abundant. Now, 3D generative modeling promises to carry this revolution beyond words and pixels, bringing it into the world we inhabit. These developments motivate the desire to connect language and 3D modalities to allow user control over 3D tools and give them access to the vast knowledge present in existing text corpuses. To accomplish this, we introduce several works which demonstrate the value of representing 3D data as language, simplifying the problem of connecting the two domains. We show the effectiveness of this approach for 3D generative modeling for the generation of both physical assets (e.g 3D printing) as well as digital assets.",
 };
 
 export const upcomingTalks = [
   {
-    date: "Apr 2, 2025",
+    date: "Apr 16, 2025",
     time: "12:00 - 12:30",
     location: "Room 1114, 370 Jay St",
     speaker: "TBD",
     topic: "",
   },
   {
-    date: "Mar 12, 2025",
+    date: "Apr 16, 2025",
     time: "12:30 - 13:00",
     location: "Room 1114, 370 Jay St",
     speaker: "TBD",

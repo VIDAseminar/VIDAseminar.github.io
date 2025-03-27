@@ -14,14 +14,14 @@ function TalkDetails({ details }) {
                     <p className="abstract">{details.abstract1}</p>
                 </div>
             </div>
-            {/* <div className="poster">
+            <div className="poster">
                 <img src={details.image2} alt={`${details.researcher2}'s portrait`} className="speaker-photo" />
                 <div className="details">
                     <h3>{details.title2}</h3>
                     <p className="researcher">{details.researcher2}</p>
                     <p className="abstract">{details.abstract2}</p>
                 </div>
-            </div> */}
+            </div>
             
         </div>
     );
