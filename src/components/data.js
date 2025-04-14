@@ -1,41 +1,41 @@
 // src/data.js
 
 export const nextTalk = {
-  date: "Wed, Apr 2, 2025",
-  time: "12:00 - 13:00",
+  date: "Wed, Apr 16, 2025",
+  time: "12:20 - 13:20",
   location: "Room 1114, 370 Jay St",
   zoomLink: "https://nyu.zoom.us/j/95901395759",
-  speaker1: "Miao Zhang",
-  topic1: "Common Sense Bias Modeling for Classification Tasks",
-  speaker2: "Kelly Marshall",
-  topic2: "Language Representations For 3D Machine Learning",
+  speaker1: "Benjamin Feuer",
+  topic1: "A Year of Explosive Progress in LLMs, Seen Through a Data-centric Lens",
+  speaker2: "Tianxiao He",
+  topic2: "Self supervised learning for in vivo localization of microelectrode arrays",
 };
 
 export const talkDetails = {
   title1: "Topic1: " + nextTalk.topic1,
-  researcher1: `${nextTalk.speaker1}, Ph.D. Student, Advised by Rumi Chunara`,
-  image1: "./images/miao.JPG",
+  researcher1: `${nextTalk.speaker1}, Ph.D. Student, Advised by Chinmay Hegde`,
+  image1: "./images/Benjamin.jpeg",
   abstract1:
-    "Machine learning model bias can arise from dataset composition: correlated sensitive features can distort the downstream classification model's decision boundary and lead to performance differences along these features. To this end, we propose a novel framework to extract comprehensive biases in image datasets based on textual descriptions, a common sense-rich modality. Specifically, features are constructed by clustering noun phrase embeddings with similar semantics. The presence of each feature across the dataset is inferred, and their co-occurrence statistics are measured, with spurious correlations optionally examined by a human-in-the-loop module. Our method uncovers novel model biases in multiple image benchmark datasets. Furthermore, the discovered bias can be mitigated by simple data re-weighting to de-correlate the features, achieving state-of-the-art performance.",
+    "LLMs have experienced an extended \"annus mirabilis\" since the public debut of ChatGPT, with innovation proceeding at an unprecedented pace. But many open scientific questions remain. When is it safe to replace human evaluators with LLM judges? What are the trade-offs we can expect? How trustworthy are the benchmarks we use to measure progress, and how can we improve them? How can we maximize the potential of synthetic data for training LLMs? My talk will cover some of my recent research in these areas, and highlight some areas I think are important for future progress.",
 
   title2: "Topic2: " + nextTalk.topic2,
-  researcher2: `${nextTalk.speaker2}, Ph.D Student, Advised by Chinmay Hegde`,
-  image2: "./images/kelly.jpg",
+  researcher2: `${nextTalk.speaker2}, Ph.D Student, Advised by Erdem Varol`,
+  image2: "./images/tianxiao.jpeg",
   abstract2:
-    "Over the past decade, the generative capabilities of machine learning systems has undergone transformational development, enabling high-quality data synthesis at previously unthinkable levels. Until now, these advances have been largely confined to the image and language modalities, where usable data is abundant. Now, 3D generative modeling promises to carry this revolution beyond words and pixels, bringing it into the world we inhabit. These developments motivate the desire to connect language and 3D modalities to allow user control over 3D tools and give them access to the vast knowledge present in existing text corpuses. To accomplish this, we introduce several works which demonstrate the value of representing 3D data as language, simplifying the problem of connecting the two domains. We show the effectiveness of this approach for 3D generative modeling for the generation of both physical assets (e.g 3D printing) as well as digital assets.",
+    "In electrophysiology, precise in-vivo localization of deep brain recording sites is crucial for longitudinal studies and targeted stimulation. However, existing methods—atlas-guided insertion, CT/MRI scans, and post hoc histology—each have limitations in precision, resolution, or longitudinal tracking. To address this, we present a self-supervised localizer to predict hippocampal regions from raw recordings, independent of probe geometry. Our framework operates on neural population activity and leverages a pre-trained transformer with contrastive learning to extract latent features from raw waveforms. We demonstrate our method on mouse Neuronexus recordings, consistently outperforming other approaches in zero-shot prediction of hippocampal regions in novel subjects. This facilitates precise detection, localization, and modulation of hippocampal activity for future interventions in memory-related disorders.",
 };
 
 export const upcomingTalks = [
   {
-    date: "Apr 16, 2025",
-    time: "12:00 - 12:30",
+    date: "Apr 130, 2025",
+    time: "12:20 - 12:50",
     location: "Room 1114, 370 Jay St",
     speaker: "TBD",
     topic: "",
   },
   {
     date: "Apr 16, 2025",
-    time: "12:30 - 13:00",
+    time: "12:50 - 13:20",
     location: "Room 1114, 370 Jay St",
     speaker: "TBD",
     topic: "",
@@ -140,6 +140,27 @@ export const historyTalksData = [
           "https://drive.google.com/file/d/1Enca1ZOS4xnX9_tlDWFTKOg1JuRpg62O/view?usp=drive_link",
         slidesLink: "",
       },
+    ],
+  },
+  {
+    date: "Apr 2, 2025",
+    speakers: [
+      {
+        name: "Miao Zhang",
+        title:
+          "Common Sense Bias Modeling for Classification Tasks",
+        zoomLink:
+          "",
+        slidesLink: "https://docs.google.com/presentation/d/1EKuVQBcNwW79M7pGCYW_TlNGBNRFgnw-wODxuwp5F5U/edit?usp=gmail",
+      },
+      {
+        name: "Kelly Marshall",
+        title:
+          "Language Representations For 3D Machine Learning",
+        zoomLink:
+          "",
+        slidesLink: "https://drive.google.com/file/d/1UfWjZ4BYt91eyL5NG_cgZGzWS6mz-SWM/view?usp=drive_link",
+      }
     ],
   },
   // Additional events...
