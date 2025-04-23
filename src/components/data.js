@@ -108,6 +108,26 @@ export const historyTalksData = [
     ],
   },
   {
+    date: "Dec 18, 2024",
+    speakers: [
+      {
+        name: "Stella Holbrook",
+        title: "Spatial indexes in correlated data discovery",
+        zoomLink:
+          "",
+        slidesLink:
+          "https://drive.google.com/file/d/1LEpnyf0GA-zaiTanBdu2q7SggLt2hG7N/view?usp=sharing",
+      },
+      {
+        name: "Christos Koutras ",
+        title: "Tabular Schema Matching for Modern Settings",
+        zoomLink:
+          "",
+        slidesLink: "https://drive.google.com/file/d/1OnrjEMEsZ6PY4KPvgYrG0XTZmblpZGPC/view?usp=sharing",
+      },
+    ],
+  },
+  {
     date: "Feb 26, 2025",
     speakers: [
       {
