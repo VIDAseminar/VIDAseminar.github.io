@@ -1,33 +1,35 @@
 // src/data.js
 
 export const nextTalk = {
-  date: "Wed, Apr 16, 2025",
+  date: "Wed, Apr 30, 2025",
   time: "12:20 - 13:20",
   location: "Room 1114, 370 Jay St",
   zoomLink: "https://nyu.zoom.us/j/95901395759",
-  speaker1: "Benjamin Feuer",
-  topic1: "A Year of Explosive Progress in LLMs, Seen Through a Data-centric Lens",
-  speaker2: "Tianxiao He",
-  topic2: "Self supervised learning for in vivo localization of microelectrode arrays",
+  speaker1: "Majid Daliri",
+  topic1:
+    "QJL: 1-Bit Quantized JL Transform for KV Cache Quantization with Zero Overhead",
+  speaker2: "Alessio Buonacucina",
+  topic2:
+    "From discrete data to continuous 3D model: a reverse engineering approach.",
 };
 
 export const talkDetails = {
   title1: "Topic1: " + nextTalk.topic1,
-  researcher1: `${nextTalk.speaker1}, Ph.D. Student, Advised by Chinmay Hegde`,
-  image1: "./images/Benjamin.jpeg",
+  researcher1: `${nextTalk.speaker1}, Ph.D. Student, Advised by Christopher Musco`,
+  image1: "./images/Majid.jpg",
   abstract1:
-    "LLMs have experienced an extended \"annus mirabilis\" since the public debut of ChatGPT, with innovation proceeding at an unprecedented pace. But many open scientific questions remain. When is it safe to replace human evaluators with LLM judges? What are the trade-offs we can expect? How trustworthy are the benchmarks we use to measure progress, and how can we improve them? How can we maximize the potential of synthetic data for training LLMs? My talk will cover some of my recent research in these areas, and highlight some areas I think are important for future progress.",
+    "Serving LLMs requires substantial memory due to the storage requirements of Key-Value (KV) embeddings in the KV cache, which grows with sequence length. An effective approach to compress KV cache is quantization. However, traditional quantization methods face significant memory overhead due to the need to store quantization constants (at least a zero point and a scale) in full precision per data block. Depending on the block size, this overhead can add 1 or 2 bits per quantized number. We introduce QJL, a new quantization approach that consists of a Johnson-Lindenstrauss (JL) transform followed by sign-bit quantization. In contrast to existing methods, QJL eliminates memory overheads by removing the need for storing quantization constants. We propose an asymmetric estimator for the inner product of two vectors and demonstrate that applying QJL to one vector and a standard JL transform without quantization to the other provides an unbiased estimator with minimal distortion. We have developed an efficient implementation of the QJL sketch and its corresponding inner product estimator, incorporating a lightweight CUDA kernel for optimized computation. When applied across various LLMs and NLP tasks to quantize the KV cache to only 3 bits, QJL demonstrates a more than fivefold reduction in KV cache memory usage without compromising accuracy, all while achieving faster runtime.",
 
   title2: "Topic2: " + nextTalk.topic2,
-  researcher2: `${nextTalk.speaker2}, Ph.D Student, Advised by Erdem Varol`,
-  image2: "./images/tianxiao.jpeg",
+  researcher2: `${nextTalk.speaker2}, Visiting Ph.D Student, Advised by Claudio Silva`,
+  image2: "./images/Alessio.jpg",
   abstract2:
-    "In electrophysiology, precise in-vivo localization of deep brain recording sites is crucial for longitudinal studies and targeted stimulation. However, existing methods—atlas-guided insertion, CT/MRI scans, and post hoc histology—each have limitations in precision, resolution, or longitudinal tracking. To address this, we present a self-supervised localizer to predict hippocampal regions from raw recordings, independent of probe geometry. Our framework operates on neural population activity and leverages a pre-trained transformer with contrastive learning to extract latent features from raw waveforms. We demonstrate our method on mouse Neuronexus recordings, consistently outperforming other approaches in zero-shot prediction of hippocampal regions in novel subjects. This facilitates precise detection, localization, and modulation of hippocampal activity for future interventions in memory-related disorders.",
+    "Reverse engineering is the translation of physical reality into digital design. Transforming point cloud data, usually acquired by 3D scanning objects, into continuous 3D models suitable for prototyping involves a series of time-consuming and repetitive operations. This research proposes an approach that combines surface reconstruction algorithms with Convolutional Neural Networks for semantic segmentation, enabling a more informed and structured generation of accurate digital geometry.",
 };
 
 export const upcomingTalks = [
   {
-    date: "Apr 130, 2025",
+    date: "Apr 30, 2025",
     time: "12:20 - 12:50",
     location: "Room 1114, 370 Jay St",
     speaker: "TBD",
@@ -113,17 +115,16 @@ export const historyTalksData = [
       {
         name: "Stella Holbrook",
         title: "Spatial indexes in correlated data discovery",
-        zoomLink:
-          "",
+        zoomLink: "",
         slidesLink:
           "https://drive.google.com/file/d/1LEpnyf0GA-zaiTanBdu2q7SggLt2hG7N/view?usp=sharing",
       },
       {
         name: "Christos Koutras ",
         title: "Tabular Schema Matching for Modern Settings",
-        zoomLink:
-          "",
-        slidesLink: "https://drive.google.com/file/d/1OnrjEMEsZ6PY4KPvgYrG0XTZmblpZGPC/view?usp=sharing",
+        zoomLink: "",
+        slidesLink:
+          "https://drive.google.com/file/d/1OnrjEMEsZ6PY4KPvgYrG0XTZmblpZGPC/view?usp=sharing",
       },
     ],
   },
@@ -167,20 +168,18 @@ export const historyTalksData = [
     speakers: [
       {
         name: "Miao Zhang",
-        title:
-          "Common Sense Bias Modeling for Classification Tasks",
-        zoomLink:
-          "",
-        slidesLink: "https://docs.google.com/presentation/d/1EKuVQBcNwW79M7pGCYW_TlNGBNRFgnw-wODxuwp5F5U/edit?usp=gmail",
+        title: "Common Sense Bias Modeling for Classification Tasks",
+        zoomLink: "",
+        slidesLink:
+          "https://docs.google.com/presentation/d/1EKuVQBcNwW79M7pGCYW_TlNGBNRFgnw-wODxuwp5F5U/edit?usp=gmail",
       },
       {
         name: "Kelly Marshall",
-        title:
-          "Language Representations For 3D Machine Learning",
-        zoomLink:
-          "",
-        slidesLink: "https://drive.google.com/file/d/1UfWjZ4BYt91eyL5NG_cgZGzWS6mz-SWM/view?usp=drive_link",
-      }
+        title: "Language Representations For 3D Machine Learning",
+        zoomLink: "",
+        slidesLink:
+          "https://drive.google.com/file/d/1UfWjZ4BYt91eyL5NG_cgZGzWS6mz-SWM/view?usp=drive_link",
+      },
     ],
   },
   // Additional events...
