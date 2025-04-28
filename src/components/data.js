@@ -22,7 +22,7 @@ export const talkDetails = {
 
   title2: "Topic2: " + nextTalk.topic2,
   researcher2: `${nextTalk.speaker2}, Visiting Ph.D Student, Advised by Claudio Silva`,
-  image2: "./images/Alessio.jpg",
+  image2: "./images/alessio.jpg",
   abstract2:
     "Reverse engineering is the translation of physical reality into digital design. Transforming point cloud data, usually acquired by 3D scanning objects, into continuous 3D models suitable for prototyping involves a series of time-consuming and repetitive operations. This research proposes an approach that combines surface reconstruction algorithms with Convolutional Neural Networks for semantic segmentation, enabling a more informed and structured generation of accurate digital geometry.",
 };
