@@ -182,5 +182,43 @@ export const historyTalksData = [
       },
     ],
   },
+  {
+    date: "Apr 16, 2025",
+    speakers: [
+      {
+        name: "Benjamin Feuer",
+        title: "A Year of Explosive Progress in LLMs, Seen Through a Data-centric Lens",
+        zoomLink: "",
+        slidesLink:
+          "",
+      },
+      {
+        name: "Tianxiao He",
+        title: "Self Supervised Learning for In Vivo Localization of Microelectrode Arrays",
+        zoomLink: "",
+        slidesLink:
+          "",
+      },
+    ],
+  },
+  {
+    date: "Apr 30, 2025",
+    speakers: [
+      {
+        name: "Majid Daliri",
+        title: "QJL: 1-Bit Quantized JL Transform for KV Cache Quantization with Zero Overhead",
+        zoomLink: "",
+        slidesLink:
+          "",
+      },
+      {
+        name: "Alessio Buonacucina",
+        title: "From discrete data to continuous 3D model: a reverse engineering approach.",
+        zoomLink: "",
+        slidesLink:
+          "https://drive.google.com/file/d/13uMCNmZXRCg5TP89fdMzGiY6XAzD1EkT/view?usp=drive_link",
+      },
+    ],
+  },
   // Additional events...
 ];
